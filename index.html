@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <h1>Welcome to My HTML5 Page</h1>
+
+    
+    <h2>Topics to Learn</h2>
+    <ol type="I">
+        <li>HTML Basics</li>
+        <li>CSS Styling</li>
+        <li>JavaScript Introduction</li>
+        <li>Forms & Validation</li>
+        <li>Multimedia Integration</li>
+    </ol>
+
+    
+    <h2>Featured Image</h2>
+    <img src="https://images.pexels.com/photos/3913025/pexels-photo-3913025.jpeg?auto=compress&cs=tinysrgb&w=600" 
+         width="600">
+
+    
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jane Doe</td>
+                <td>123 Main St</td>
+                <td>0712345678</td>
+                <td>jane@example.com</td>
+            </tr>
+            <tr>
+                <td>John Smith</td>
+                <td>456 Oak Ave</td>
+                <td>0723456789</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Alice Johnson</td>
+                <td>789 Pine Rd</td>
+                <td>0734567890</td>
+                <td>alice@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Lee</td>
+                <td>321 Birch Ln</td>
+                <td>0745678901</td>
+                <td>michael@example.com</td>
+            </tr>
+            <tr>
+                <td>Maria Gomez</td>
+                <td>654 Maple Dr</td>
+                <td>0756789012</td>
+                <td>maria@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h2>Register Here</h2>
+    <form>
+        
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your full name" required><br><br>
+
+        
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@domain.com" required><br><br>
+
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Create a password" required minlength="6"><br><br>
+
+        
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+    
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender" required>
+            <option value="">Select...</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        
+        <p>Choose your plan:</p>
+        <input type="radio" id="free" name="plan" value="free" required>
+        <label for="free">Free</label><br>
+
+        <input type="radio" id="premium" name="plan" value="premium">
+        <label for="premium">Premium</label><br><br>
+
+        
+        <p>Interests:</p>
+        <input type="checkbox" id="coding" name="interest" value="coding">
+        <label for="coding">Coding</label><br>
+
+        <input type="checkbox" id="music" name="interest" value="music">
+        <label for="music">Music</label><br>
+
+        <input type="checkbox" id="travel" name="interest" value="travel">
+        <label for="travel">Travel</label><br><br>
+
+        
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
+
